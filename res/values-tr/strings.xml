@@ -71,7 +71,7 @@
     <string name="mode_rad">radyan</string>
     <!-- Equals button (e.g. "1 + 2 = ?"). [CHAR_LIMIT=1] -->
     <!-- Clear button to clear the currently entered expression. [CHAR_LIMIT=4] -->
-    <string name="clr">temizle</string>
+    <string name="clr">tmzl</string>
     <!--
       Announced when all characters are removed from Formula, e.g. after clear. [CHAR_LIMIT=NONE]
       -->

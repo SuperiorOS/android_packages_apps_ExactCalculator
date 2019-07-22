@@ -93,7 +93,7 @@
     <!-- Content description for 'e' button. [CHAR_LIMIT=NONE] -->
     <string name="desc_const_e">自然対数の底</string>
     <!-- Content description for 'π' button. [CHAR_LIMIT=NONE] -->
-    <string name="desc_const_pi">π</string>
+    <string name="desc_const_pi">円周率</string>
     <!-- Content description for '.' button. [CHAR_LIMIT=NONE] -->
     <string name="desc_dec_point">少数点</string>
     <!-- Content description for '(' button. [CHAR_LIMIT=NONE] -->

@@ -89,6 +89,7 @@
     <!-- Content description for '(' button. [CHAR_LIMIT=NONE] -->
     <!-- Content description for ')' button. [CHAR_LIMIT=NONE] -->
     <!-- Content description for 'cos' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_cos">余弦</string>
     <!-- Content description for 'ln' button. [CHAR_LIMIT=NONE] -->
     <!-- Content description for 'log' button. [CHAR_LIMIT=NONE] -->
     <!-- Content description for 'sin' button. [CHAR_LIMIT=NONE] -->

@@ -97,9 +97,9 @@
     <!-- Content description for '.' button. [CHAR_LIMIT=NONE] -->
     <string name="desc_dec_point">пункт</string>
     <!-- Content description for '(' button. [CHAR_LIMIT=NONE] -->
-    <string name="desc_lparen">Левая скобка</string>
+    <string name="desc_lparen">левая скобка</string>
     <!-- Content description for ')' button. [CHAR_LIMIT=NONE] -->
-    <string name="desc_rparen">Правая скобка</string>
+    <string name="desc_rparen">правая скобка</string>
     <!-- Content description for 'cos' button. [CHAR_LIMIT=NONE] -->
     <string name="desc_fun_cos">косинус</string>
     <!-- Content description for 'ln' button. [CHAR_LIMIT=NONE] -->
