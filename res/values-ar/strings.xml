@@ -70,6 +70,7 @@
     <!--
       Announced when all characters are removed from Formula, e.g. after clear. [CHAR_LIMIT=NONE]
       -->
+    <string name="cleared">تم المسح</string>
     <!-- Delete button to remove last entered token. [CHAR_LIMIT=4] -->
     <!-- Toggle button to show/hide inverse functions. [CHAR_LIMIT=4] -->
     <!--
@@ -84,6 +85,7 @@
       [CHAR_LIMIT=2]
       -->
     <!-- Content description for 'e' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_const_e">رقم أويلر</string>
     <!-- Content description for 'π' button. [CHAR_LIMIT=NONE] -->
     <!-- Content description for '.' button. [CHAR_LIMIT=NONE] -->
     <!-- Content description for '(' button. [CHAR_LIMIT=NONE] -->
@@ -111,10 +113,14 @@
     <!-- Content description for '÷' button. [CHAR_LIMIT=NONE] -->
     <!-- Content description for '!' button. [CHAR_LIMIT=NONE] -->
     <!-- Content description for '×' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_mul">تتضاعف</string>
     <!-- Content description for '%' button. [CHAR_LIMIT=NONE] -->
     <!-- Content description for '^' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_pow">الطاقة</string>
     <!-- Content description for '√' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_sqrt">جذر تربيعي</string>
     <!-- Content description for '-' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_sub">ناقص</string>
     <!-- Content description for degree mode. [CHAR_LIMIT=NONE] -->
     <!-- Content description for radian mode. [CHAR_LIMIT=NONE] -->
     <!-- Content description for switch to degree button. [CHAR_LIMIT=NONE] -->
