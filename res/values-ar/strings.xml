@@ -17,6 +17,7 @@
   -->
 <resources>
     <!-- Name of the application. [CHAR_LIMIT=NONE] -->
+    <string name="app_name">الحاسبة</string>
     <!-- Constant for Euler's number (i.e. "2.7182…"). [CHAR_LIMIT=1] -->
     <!-- Constant for pi (i.e. "3.1415…"). [CHAR_LIMIT=1] -->
     <!-- Left parenthesis (e.g. "log(", "2 × (3 - 1)". [CHAR_LIMIT=1] -->
@@ -29,6 +30,7 @@
 
       [CHAR_LIMIT=1]
       -->
+    <string name="dec_point">.</string>
     <!-- Decimal representation of zero (e.g. "0", "10", "1.0", "1e0"). [CHAR_LIMIT=1] -->
     <!-- Decimal representation of one (e.g. "1", "11", "1.1", "1e1"). [CHAR_LIMIT=1] -->
     <!-- Decimal representation of two (e.g. "2", "22", "2.2", "2e2"). [CHAR_LIMIT=1] -->
@@ -64,14 +66,18 @@
       -->
     <!-- Abbrev. name of exponential function in formula.  -->
     <!-- Abbrev. name of degree mode [CHAR_LIMIT=4] -->
+    <string name="mode_deg">درجة</string>
     <!-- Abbrev. name of radian mode. [CHAR_LIMIT=4] -->
+    <string name="mode_rad">راديان</string>
     <!-- Equals button (e.g. "1 + 2 = ?"). [CHAR_LIMIT=1] -->
     <!-- Clear button to clear the currently entered expression. [CHAR_LIMIT=4] -->
+    <string name="clr">مسح</string>
     <!--
       Announced when all characters are removed from Formula, e.g. after clear. [CHAR_LIMIT=NONE]
       -->
     <string name="cleared">تم المسح</string>
     <!-- Delete button to remove last entered token. [CHAR_LIMIT=4] -->
+    <string name="del">حذف</string>
     <!-- Toggle button to show/hide inverse functions. [CHAR_LIMIT=4] -->
     <!--
       Item on Formula context menu used to paste from the Memory into the edit field. [CHAR_LIMIT=2]
@@ -87,61 +93,97 @@
     <!-- Content description for 'e' button. [CHAR_LIMIT=NONE] -->
     <string name="desc_const_e">رقم أويلر</string>
     <!-- Content description for 'π' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_const_pi">باي</string>
     <!-- Content description for '.' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_dec_point">نقطة</string>
     <!-- Content description for '(' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_lparen">قوس أيسر</string>
     <!-- Content description for ')' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_rparen">قوس أيمن</string>
     <!-- Content description for 'cos' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_cos">جيب التمام</string>
     <!-- Content description for 'ln' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_ln">اللوغاريتم الطبيعي</string>
     <!-- Content description for 'log' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_log">اللوغاريتم</string>
     <!-- Content description for 'sin' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_sin">جيب الزاوية</string>
     <!-- Content description for 'tan' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_tan">ظل الزاوية</string>
     <!-- Content description for 'arccos' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_arccos">معكوس جيب التمام</string>
     <!-- Content description for 'arcsin' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_arcsin">معكوس جيب الزاوية</string>
     <!-- Content description for 'arctan' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_arctan">معكوس ظل الزاوية</string>
     <!--
       Content description for 10^ button. This button is used to raise 10 to the subsequently
       entered power. E.g. <10^>3 would yield 1000.
       [CHAR_LIMIT=NONE]
       -->
+    <string name="desc_fun_10pow">رفع رقم عشرة إلى القوة الجبرية لـ</string>
     <!-- Content description for e^ (exponential function) button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_exp">دالة أسية</string>
     <!--
       Content description for ^2 button. This button is used to square the previously entered
       number. E.g. 3<^2> would yield 9.
       [CHAR_LIMIT=NONE]
       -->
+    <string name="desc_op_sqr">تربيعي</string>
     <!-- Content description for '+' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_add">زائد</string>
     <!-- Content description for '÷' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_div">تقسيم</string>
     <!-- Content description for '!' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_fact">مضروب العدد</string>
     <!-- Content description for '×' button. [CHAR_LIMIT=NONE] -->
-    <string name="desc_op_mul">تتضاعف</string>
+    <string name="desc_op_mul">ضرب</string>
     <!-- Content description for '%' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_pct">النسبة المئوية</string>
     <!-- Content description for '^' button. [CHAR_LIMIT=NONE] -->
-    <string name="desc_op_pow">الطاقة</string>
+    <string name="desc_op_pow">power</string>
     <!-- Content description for '√' button. [CHAR_LIMIT=NONE] -->
     <string name="desc_op_sqrt">جذر تربيعي</string>
     <!-- Content description for '-' button. [CHAR_LIMIT=NONE] -->
     <string name="desc_op_sub">ناقص</string>
     <!-- Content description for degree mode. [CHAR_LIMIT=NONE] -->
+    <string name="desc_mode_deg">وضع الدرجة</string>
     <!-- Content description for radian mode. [CHAR_LIMIT=NONE] -->
+    <string name="desc_mode_rad">وضع الراديان</string>
     <!-- Content description for switch to degree button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_switch_deg">التبديل إلى الدرجات</string>
     <!-- Content description for switch to radian button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_switch_rad">التبديل إلى الراديان</string>
     <!-- Content description for '=' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_eq">يساوي</string>
     <!-- Content description for "clr" button. Deletes entire formula. [CHAR_LIMIT=NONE] -->
+    <string name="desc_clr">مسح</string>
     <!--
       Content description for "del" button. Deletes single character. Should differ
       from desc_clr. [CHAR_LIMIT=NONE]
       -->
+    <string name="desc_del">حذف</string>
     <!-- Content description for "inv" button to show inverse functions. [CHAR_LIMIT=NONE] -->
+    <string name="desc_inv_off">عرض الدالات العكسية</string>
     <!-- Content description for "inv" button to hide inverse functions. [CHAR_LIMIT=NONE] -->
+    <string name="desc_inv_on">إخفاء الدالات العكسية</string>
     <!-- Content description for formula field when it is empty. [CHAR_LIMIT=NONE] -->
+    <string name="desc_formula">لا توجد صيغة</string>
     <!-- Content description for result field when it is empty. [CHAR_LIMIT=NONE] -->
+    <string name="desc_result">لا توجد نتيجة</string>
     <!-- Content description for the numeric/operation pad when slide-able. [CHAR_LIMIT=NONE] -->
+    <string name="desc_num_pad">الأرقام والعمليات الأساسية</string>
     <!-- Content description for the advanced pad when slide-able. [CHAR_LIMIT=NONE] -->
+    <string name="desc_adv_pad">العمليات المتقدمة</string>
     <!-- Content description for the pad pages when slide-able. -->
     <!-- Error displayed when expression evaluates to an undefined result. [CHAR_LIMIT=20] -->
+    <string name="error_nan">ليس رقماً</string>
     <!-- Error displayed when expression contains a syntax error. [CHAR_LIMIT=20] -->
+    <string name="error_syntax">عبارة غير صحيحة</string>
     <!-- Error displayed when evaluation is manually aborted. [CHAR_LIMIT=20] -->
+    <string name="error_aborted">تم الإحباط</string>
     <!-- Error displayed when excessive precision is required. [CHAR_LIMIT=20] -->
+    <string name="error_overflow">غير محدد؟</string>
     <!--
       Error displayed when division by zero is detected.
 
@@ -150,9 +192,13 @@
 
       [CHAR_LIMIT=20]
       -->
+    <string name="error_zero_divide">لا يمكن القسمة على 0</string>
     <!-- Toast shown when text is copied to the clipboard. [CHAR_LIMIT=40] -->
+    <string name="text_copied_toast">تم نسخ النص</string>
     <!-- Dialog message when a computation is cancelled by the user. [CHAR_LIMIT=NONE] -->
+    <string name="cancelled">تم إلغاء العملية الحسابية.</string>
     <!-- Dialog message when a computation times out. [CHAR_LIMIT=NONE] -->
+    <string name="timeout">قد تكون القيمة لا نهائية أو غير معرّفة.</string>
     <!--
       Button label to allow future computations with a longer timeout.
 
@@ -162,20 +208,35 @@
 
       [CHAR_LIMIT=40]
       -->
+    <string name="ok_remove_timeout">استخدام المهلات الأطول</string>
     <!-- Button label to dismiss informative text message. [CHAR_LIMIT=40] -->
+    <string name="dismiss">تجاهل</string>
     <!-- Appended indicator (for "leading" display) that result is exact. [CHAR_LIMIT=NONE] -->
+    <string name="exact">(بالضبط)</string>
     <!-- Indicator (for "leading" display) that result is inexact. [CHAR_LIMIT=NONE] -->
+    <string name="approximate">(± 1 في الرقم الأخير)</string>
     <!-- Menu option to display result including leading digits. [CHAR_LIMIT=40] -->
+    <string name="menu_leading">الإجابة بالأرقام الأولى</string>
     <!-- Menu option to display result as fraction. [CHAR_LIMIT=40] -->
+    <string name="menu_fraction">الإجابة بالكسر</string>
     <!-- Menu option to view the app's open source licenses. [CHAR_LIMIT=40] -->
+    <string name="menu_licenses">ترخيص مفتوح المصدر</string>
     <!-- Menu option to access calculation history. [CHAR_LIMIT=40] -->
+    <string name="menu_history">المحفوظات</string>
     <!-- Menu option to clear calculation history and memory. [CHAR_LIMIT=40] -->
+    <string name="menu_clear_history">مسح</string>
     <!-- Action bar title in history page. [CHAR_LIMIT=40] -->
+    <string name="title_history">المحفوظات</string>
     <!-- Action bar navigate up description in history page. [CHAR_LIMIT=40] -->
+    <string name="desc_navigate_up">التنقل للأعلى</string>
     <!-- Title for alert dialog when calculation takes too long (timeout). [CHAR_LIMIT=30] -->
+    <string name="dialog_timeout">انتهاء المهلة</string>
     <!--
       Message for alert dialog when user is about to clear history and memory. [CHAR_LIMIT=NONE]
     -->
+    <string name="dialog_clear">مسح المحفوظات والذاكرة؟</string>
     <!-- Title for "current expression" in history page. [CHAR_LIMIT=40] -->
+    <string name="title_current_expression">العبارة الحالية</string>
     <!-- Placeholder string when there is no history to be shown. [CHAR_LIMIT=40] -->
+    <string name="no_history">لا يوجد سجل محفوظات</string>
 </resources>
