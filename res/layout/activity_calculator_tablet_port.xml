@@ -15,24 +15,54 @@
   limitations under the License.
   -->
 
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-
-    <include layout="@layout/display" />
-
-    <include layout="@layout/pad_advanced" />
+    android:layout_height="match_parent">
 
     <LinearLayout
+        android:id="@+id/header"
         android:layout_width="match_parent"
-        android:layout_height="0dip"
-        android:layout_weight="500">
+        android:layout_height="wrap_content"
+        android:background="@drawable/display_background"
+        android:orientation="vertical">
 
-        <include layout="@layout/pad_numeric"/>
-        <include layout="@layout/pad_operator" />
+        <include
+            layout="@layout/display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:layout_alignParentBottom="true"
+        android:background="@color/calculator_primary_color"
+        android:backgroundTint="@color/calculator_primary_color"
+        android:orientation="vertical">
+
+        <com.android.calculator2.ExpandableLayout
+            android:id="@+id/expandablePad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:el_expanded="false">
+
+            <include
+                layout="@layout/pad_advanced"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+        </com.android.calculator2.ExpandableLayout>
+
+        <include
+            layout="@layout/pad_numeric"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</RelativeLayout>

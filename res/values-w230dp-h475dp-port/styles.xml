@@ -20,12 +20,12 @@
     <style name="PadButtonStyle.Advanced">
         <item name="android:background">@drawable/pad_button_advanced_background</item>
         <item name="android:textColor">@color/pad_button_advanced_text_color</item>
-        <item name="android:textSize">20dip</item>
+        <item name="android:textSize">16dip</item>
     </style>
 
     <style name="PadButtonStyle.Advanced.Text">
         <item name="android:textAllCaps">true</item>
-        <item name="android:textSize">17dip</item>
+        <item name="android:textSize">14dip</item>
     </style>
 
     <style name="PadButtonStyle.Numeric">

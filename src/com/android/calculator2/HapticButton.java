@@ -16,6 +16,8 @@
 
 package com.android.calculator2;
 
+import android.annotation.SuppressLint;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.content.Context;
 import android.util.AttributeSet;
@@ -48,17 +50,15 @@ public class HapticButton extends Button {
         initVibration(context);
     }
 
+    @SuppressLint("ClickableViewAccessibility")
     private void initVibration(Context context) {
-        setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                    performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
-                }
-
-                // Passthrough
-                return false;
+        setOnTouchListener((v, event) -> {
+            if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
             }
+
+            // Passthrough
+            return false;
         });
     }
 }

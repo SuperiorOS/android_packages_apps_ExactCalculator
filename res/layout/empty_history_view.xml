@@ -14,17 +14,19 @@
   See the License for the specific language governing permissions and
   limitations under the License.
   -->
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/empty_history_view"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/calculator_statusbar_color"
+    android:backgroundTint="@color/calculator_statusbar_color">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:drawableTop="@drawable/ic_history_grey600_48dp"
+        android:drawablePadding="12dp"
         android:text="@string/no_history"
         android:textSize="20sp" />
 
