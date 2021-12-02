@@ -19,7 +19,7 @@
     <style name="Theme" parent="@android:style/Theme.Material">
         <item name="android:colorPrimary">@color/calculator_primary_color</item>
         <item name="android:colorAccent">@color/calculator_accent_color</item>
-        <item name="android:statusBarColor">@android:color/monet_background_secondary_device_default</item>
+        <item name="android:statusBarColor">@color/secondary_bg</item>
         <item name="android:navigationBarColor">@color/navigationBar_color</item>
         <item name="android:navigationBarDividerColor">@color/navigationBar_divider</item>
         <item name="android:windowSoftInputMode">stateAlwaysHidden</item>

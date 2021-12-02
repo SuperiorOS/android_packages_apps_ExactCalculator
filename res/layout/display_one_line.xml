@@ -21,7 +21,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:clipChildren="false"
-    app:cardBackgroundColor="@android:color/monet_background_secondary_device_default"
+    app:cardBackgroundColor="@color/secondary_bg"
     app:cardCornerRadius="24dp"
     app:cardElevation="0dp">
 

@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/display_background"
-        android:backgroundTint="@android:color/monet_background_secondary_device_default"
+        android:backgroundTint="@color/secondary_bg"
         android:visibility="invisible" />
 
 </com.android.calculator2.DragLayout>
