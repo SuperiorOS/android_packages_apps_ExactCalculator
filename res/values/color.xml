@@ -18,13 +18,13 @@
 <resources>
 
     <!-- Default accent color. -->
-    <color name="calculator_accent_color">#167c80</color>
+    <color name="calculator_accent_color">@android:color/system_accent1_400</color>
 
     <!-- Primary color (Color for the toolbars). -->
-    <color name="calculator_primary_color">#fafafa</color>
+    <color name="calculator_primary_color">@android:color/system_neutral1_0</color>
 
     <!-- Status bar color. -->
-    <color name="calculator_statusbar_color">#f0f0f0</color>
+    <color name="calculator_statusbar_color">@color/calculator_primary_color</color>
 
     <!-- Color to indicate an error has occured. -->
     <color name="calculator_error_color">#d0422d</color>
@@ -45,7 +45,7 @@
     <color name="pad_numeric_background_color">@color/calculator_primary_color</color>
 
     <!-- Background color for the operator pad. -->
-    <color name="pad_operator_background_color">@color/calculator_statusbar_color</color>
+    <color name="pad_operator_background_color">@android:color/system_neutral1_10</color>
 
     <!-- Background color for the advanced pad. -->
     <color name="pad_advanced_background_color">@color/calculator_accent_color</color>

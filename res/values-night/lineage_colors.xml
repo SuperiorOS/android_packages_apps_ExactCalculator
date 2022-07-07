@@ -17,13 +17,13 @@
 
 <resources>
     <!-- Primary color (Color for the toolbars). -->
-    <color name="calculator_primary_color">#212121</color>
+    <color name="calculator_primary_color">@android:color/system_neutral1_700</color>
 
     <!-- Status bar color. -->
-    <color name="calculator_statusbar_color">#000000</color>
+    <color name="calculator_statusbar_color">@android:color/system_neutral1_700</color>
 
     <!-- Background color for the operator pad. -->
-    <color name="pad_operator_background_color">#1E1E1E</color>
+    <color name="pad_operator_background_color">@android:color/system_neutral1_800</color>
 
     <!-- Text color for the formula in the calculator display. -->
     <color name="display_formula_text_color">@android:color/white</color>
