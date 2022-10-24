@@ -20,7 +20,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/pad_advanced"
     style="@style/PadLayoutStyle.Advanced"
-    android:background="@color/pad_advanced_background_color"
+    android:background="@color/calculator_primary_color"
+    android:backgroundTint="@color/calculator_primary_color"
     app:rowCount="3"
     app:columnCount="5">
 
@@ -30,6 +31,7 @@
         android:background="@drawable/pad_button_inverse_background"
         android:contentDescription="@string/desc_inv_off"
         android:text="@string/inv"
+        android:textColor="@color/calculator_accent_color"
         app:layout_row="0"
         app:layout_column="0" />
 

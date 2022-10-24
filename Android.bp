@@ -23,7 +23,7 @@ android_app {
 
     overrides: ["Calculator"],
 
-    srcs: ["src/**/*.java"],
+    srcs: ["src/**/*.java", "src/**/*.kt"],
 
     optimize: {
         proguard_flags_files: ["proguard.flags"],
@@ -33,7 +33,10 @@ android_app {
 
     static_libs: [
         "cr",
+        "com.google.android.material_material",
+        "androidx.appcompat_appcompat",
         "androidx.legacy_legacy-support-v4",
+        "androidx.cardview_cardview",
         "androidx.gridlayout_gridlayout",
         "androidx.recyclerview_recyclerview",
     ],

@@ -15,11 +15,11 @@
   limitations under the License.
   -->
 
-<com.android.calculator2.DragLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.android.calculator2.DragLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/drag_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/display_background">
 
     <include
         android:id="@+id/main_calculator"
@@ -29,6 +29,8 @@
         android:id="@+id/history_frame"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/display_background"
+        android:backgroundTint="@color/monet_background_secondary_device_default"
         android:visibility="invisible" />
 
 </com.android.calculator2.DragLayout>

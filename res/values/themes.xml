@@ -20,7 +20,7 @@
     <style name="Theme" parent="@android:style/Theme.Material.Light">
         <item name="android:colorPrimary">@color/calculator_primary_color</item>
         <item name="android:colorAccent">@color/calculator_accent_color</item>
-        <item name="android:statusBarColor">@color/calculator_statusbar_color</item>
+        <item name="android:statusBarColor">@color/monet_background_secondary_device_default</item>
         <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
         <item name="android:navigationBarColor">@color/navigationBar_color</item>
         <item name="android:navigationBarDividerColor">@color/navigationBar_divider</item>

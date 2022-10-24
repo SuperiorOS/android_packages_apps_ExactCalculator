@@ -18,7 +18,7 @@
 <resources>
     <!-- Dimens for display formula. -->
     <dimen name="formula_padding_top">16dip</dimen>
-    <dimen name="formula_padding_bottom">32dip</dimen>
+    <dimen name="formula_padding_bottom">100dip</dimen>
     <dimen name="formula_padding_start">44dip</dimen>
     <dimen name="formula_padding_end">44dip</dimen>
     <dimen name="formula_min_textsize">48dip</dimen>

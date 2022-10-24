@@ -19,6 +19,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/monet_background_secondary_device_default"
     android:clipChildren="false"
     android:orientation="vertical">
 
@@ -26,7 +27,8 @@
         android:id="@+id/history_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?android:attr/colorPrimary"
+        android:background="@color/monet_background_secondary_device_default"
+        android:backgroundTint="@color/monet_background_secondary_device_default"
         android:elevation="4dip"
         android:minHeight="?android:attr/actionBarSize"
         android:navigationContentDescription="@string/desc_navigate_up"

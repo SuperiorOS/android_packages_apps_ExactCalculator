@@ -25,10 +25,11 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.accessibility.AccessibilityManager;
-import android.widget.LinearLayout;
 import android.widget.Toolbar;
 
-public class CalculatorDisplay extends LinearLayout
+import androidx.cardview.widget.CardView;
+
+public class CalculatorDisplay extends CardView
         implements AccessibilityManager.AccessibilityStateChangeListener {
 
     /**

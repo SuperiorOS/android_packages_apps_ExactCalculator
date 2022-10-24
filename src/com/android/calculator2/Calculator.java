@@ -259,6 +259,8 @@ public class Calculator extends Activity
     private View mClearButton;
     private View mEqualButton;
     private View mMainCalculator;
+    private View mExpandButton;
+    private ExpandableLayout mExpandAdvanced;
 
     private TextView mInverseToggle;
     private TextView mModeToggle;
@@ -395,6 +397,13 @@ public class Calculator extends Activity
         mInverseToggle = (TextView) findViewById(R.id.toggle_inv);
         mModeToggle = (TextView) findViewById(R.id.toggle_mode);
 
+        mExpandButton = findViewById(R.id.expandAdvanced);
+        mExpandAdvanced = findViewById(R.id.expandablePad);
+        if (mExpandAdvanced != null)
+            mExpandButton.setOnClickListener(v -> mExpandAdvanced.toggle(true));
+        else
+            mExpandButton.setVisibility(View.GONE);
+
         mIsOneLine = mResultText.getVisibility() == View.INVISIBLE;
 
         mInvertibleButtons = new View[] {
@@ -490,15 +499,6 @@ public class Calculator extends Activity
                 restoreDisplayPositions();
             }
             mCurrentState = state;
-
-            if (mCurrentState == CalculatorState.RESULT) {
-                // No longer do this for ERROR; allow mistakes to be corrected.
-                mDeleteButton.setVisibility(View.GONE);
-                mClearButton.setVisibility(View.VISIBLE);
-            } else {
-                mDeleteButton.setVisibility(View.VISIBLE);
-                mClearButton.setVisibility(View.GONE);
-            }
 
             if (mIsOneLine) {
                 if (mCurrentState == CalculatorState.RESULT

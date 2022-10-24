@@ -15,8 +15,7 @@
   limitations under the License.
   -->
 
-<androidx.gridlayout.widget.GridLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.gridlayout.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/pad_numeric"
     style="@style/PadLayoutStyle.Numeric"
@@ -35,6 +34,7 @@
         app:layout_column="0"
         app:layout_row="0" />
 
+
     <com.android.calculator2.HapticButton
         android:id="@+id/op_div"
         style="@style/PadButtonStyle.Operator"
@@ -52,6 +52,7 @@
         android:contentDescription="@string/desc_del"
         android:src="@drawable/ic_more"
         android:tint="@color/calculator_accent_color"
+        android:visibility="gone"
         app:layout_column="2"
         app:layout_row="0" />
 
@@ -85,6 +86,8 @@
         android:textColor="@color/calculator_accent_color"
         app:layout_column="3"
         app:layout_row="1" />
+
+
 
     <com.android.calculator2.HapticButton
         android:id="@+id/digit_4"

@@ -21,6 +21,7 @@
     android:id="@+id/pad_operator"
     style="@style/PadLayoutStyle.Operator"
     android:background="@color/pad_operator_background_color"
+    android:backgroundTint="@color/pad_operator_background_color"
     app:rowCount="5"
     app:columnCount="1">
 

@@ -16,6 +16,11 @@
   -->
 
 <resources>
-    <color name="navigationBar_color">@android:color/white</color>
-    <color name="navigationBar_divider">#1f000000</color>
+    <color name="navigationBar_color">@color/primary_monet_color</color>
+    <color name="navigationBar_divider">#00000000</color>
+
+    <color name="monet_background_secondary_device_default">@android:color/system_neutral1_100</color>
+    <color name="accent_background_device_default">@android:color/system_accent1_600</color>
+    <color name="monet_background_device_default">@android:color/system_neutral1_50</color>
+
 </resources>

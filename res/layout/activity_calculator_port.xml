@@ -32,14 +32,31 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@color/calculator_primary_color"
+            android:backgroundTint="@color/calculator_primary_color"
+            android:paddingEnd="12dp">
 
-            <include layout="@layout/pad_numeric" />
-            <include layout="@layout/pad_operator" />
+            <include layout="@layout/pad_numeric_land" />
 
         </LinearLayout>
 
-        <include layout="@layout/pad_advanced" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="pill"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:src="@drawable/pin_vertical" />
+
+            <include layout="@layout/pad_advanced" />
+        </LinearLayout>
 
     </com.android.calculator2.CalculatorPadViewPager>
 
